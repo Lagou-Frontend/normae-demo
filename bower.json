@@ -1,0 +1,13 @@
+{
+  "name": "amd",
+  "version": "0.0.0",
+  "authors": [
+    "vic"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "artTemplate": "~3.0.1",
+    "esl": "~2.0.6",
+    "jquery": "1.11.3"
+  }
+}
