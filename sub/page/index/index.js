@@ -1,9 +1,9 @@
 define(function (require, exports, module) {
-	require("../../../common/widget/header/header");
+	require("../../../common/widgets/header/header");
 
-	require("../../../common/widget/footer/footer");
+	require("../../../common/widgets/footer/footer");
 
-    require("../../widget/content/content");
+    require("../../modules/content/content");
 
     console.log("index");
 });
