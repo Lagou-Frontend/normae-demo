@@ -7,7 +7,7 @@ $ npm install normae -g
 $ npm install bower -g
 ```
 ```shell
-$ git clone git@github.com:vicerwang/normae-demo.git
+$ git clone git@github.com:Lagou-Frontend/normae-demo.git
 ```
 ```shell
 $ cd normae-demo
