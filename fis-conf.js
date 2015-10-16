@@ -3,7 +3,9 @@ fis.match('jquery*.js', {
 });
 
 fis.media('qa').match('**/page/**.html', {
-    postprocessor: fis.plugin('velocity')
+    postprocessor: fis.plugin('velocity', {
+        commonMock: 'test/common/common.js'
+    })
 });
 
 fis.media('qa').match("dep/**/{jquery,esl}.js",{
@@ -11,7 +13,9 @@ fis.media('qa').match("dep/**/{jquery,esl}.js",{
 });
 
 fis.media('prod').match('**/page/**.html', {
-    postprocessor: fis.plugin('velocity')
+    postprocessor: fis.plugin('velocity', {
+        commonMock: 'test/common/common.js'
+    })
 });
 
 fis.media('prod').match("dep/**/{jquery,esl}.js",{
