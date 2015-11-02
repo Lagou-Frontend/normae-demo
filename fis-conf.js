@@ -1,4 +1,4 @@
-fis.match('jquery*.js', {
+fis.match('jquery.js', {
     isMod: false
 });
 
